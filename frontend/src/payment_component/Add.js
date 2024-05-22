@@ -49,7 +49,7 @@ export default function Add() {
             });
             return;
         }
-        const emailRegex = /^[\w.%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        const emailRegex = /^[\w.%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;    //E-mail validation
         if (!emailRegex.test(email)) {
             toast.error('Please enter a valid email address', {
                 position: "top-center",
