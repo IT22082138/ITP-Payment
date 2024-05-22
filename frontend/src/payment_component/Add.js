@@ -37,7 +37,7 @@ export default function Add() {
     const addinpdata = async (e) => {
         e.preventDefault();
         const { name, email, contact } = inputdata;
-        if (!name || !/^[a-zA-Z. ]+$/.test(name)) {
+        if (!name || !/^[a-zA-Z. ]+$/.test(name)) {  //letters,., only
             toast.error('Please enter a valid name (letters and periods only)', {
                 position: "top-center",
                 autoClose: 2000,
