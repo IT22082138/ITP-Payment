@@ -63,7 +63,7 @@ export default function Add() {
             return;
         }
         if (!validateContact(contact)) {
-            toast.error('Please enter a valid 10-digit contact number', {
+            toast.error('Please enter a valid 10-digit contact number', { //phone number
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -74,7 +74,7 @@ export default function Add() {
             });
             return;
         }
-        const res = await fetch("http://localhost:5000/addstud", {
+        const res = await fetch("http://localhost:5000/addstud", {  //
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
