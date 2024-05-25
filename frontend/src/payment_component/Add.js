@@ -108,17 +108,21 @@ export default function Add() {
                
 
     
-    return (
+    return (/*header*/
         
         
         <div className='container mt-5'>
-            <center><h4 style={{ color: 'Black' }}>Payment</h4>
+            <center><h4 style={{ color: 'Black' }}>Payment</h4>  
 
             <div className='underline1'></div></center>
             
             <form  className='mt-5 shadow p-5' style={{backgroundColor: '#B9EBFF', maxWidth: '50%', alignItems: 'center', margin: '0 auto'}}>
 
+
+             {/* Name  */}
             <div className="mb-3">
+
+                
     <label htmlFor="exampleFormControlInput1" className="form-label">Name</label>
     <input 
         type="text" 
