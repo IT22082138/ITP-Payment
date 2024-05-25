@@ -145,6 +145,7 @@ export default function Add() {
     />                   
 </div>
 
+                {/* E-mail */}
 
                 <div className="mb-3">
                     <label htmlFor="exampleFormControlInput1" className="form-label">Email</label>
